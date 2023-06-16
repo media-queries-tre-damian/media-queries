@@ -4,16 +4,40 @@
 /*    width: 100%*/
 /*}*/
 
-/*ul {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: flex-end;*/
-/*    margin: 0px;*/
-/*    width: 100%;*/
-/*    list-style: none;*/
-/*}*/
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*margin: 0px;*/
+    width: 100%;
+    list-style: none;
+}
 
 /*h2 {*/
 /*    display: flex;*/
 /*    justify-content: space-between;*/
 /*}*/
+
+
+
+
+p1{
+
+    width:600px;
+    font-size: 1em;
+
+}
+
+p2{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+@media screen and (min-width:800px)
+
+alert-info hidden-on-desktop{
+<a href="#main">Skip to main content</a>-->
+}
