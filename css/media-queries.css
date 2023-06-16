@@ -11,6 +11,7 @@ ul {
     /*margin: 0px;*/
     width: 100%;
     list-style: none;
+    padding: 20px;
 }
 
 /*h2 {*/
@@ -18,26 +19,28 @@ ul {
 /*    justify-content: space-between;*/
 /*}*/
 
-
-
-
 p1{
-
     width:600px;
     font-size: 1em;
-
 }
-
 p2{
     display: flex;
     justify-content: center;
-
-
-
 }
 
-@media screen and (min-width:800px)
+@media screen and (min-width:800px) {
+    .hidden-on-desktop {
 
-alert-info hidden-on-desktop{
-<a href="#main">Skip to main content</a>-->
+    }
+}
+
+footer {
+    display: flex;
+    height: 500px;
+    margin: 40px;
+    flex-direction: column-reverse;
+}
+
+h1 {
+    font-size: 2em;
 }
