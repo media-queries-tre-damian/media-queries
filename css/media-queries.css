@@ -63,17 +63,26 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-    ul {
-        display: flex;
-        justify-content: unset;
-        align-items: center;
-        text-align: center;
-        text-decoration: unset;
-        color: inherit;
-        margin: 1px;=
+    /*ul {*/
+    /*    display: flex;*/
+    /*    justify-content: unset;*/
+    /*    align-items: center;*/
+    /*    text-align: center;*/
+    /*    text-decoration: unset;*/
+    /*    color: inherit;*/
+    /*    margin: 1px;=*/
+    /*    flex-direction: column;*/
+    /*    !*flex-grow: 2 0 0;*!*/
+    /*    width: 100%;*/
+    /*    height: auto;*/
+    /*}*/
+    /*body {*/
+    /*    background-color: black;*/
+    /*}*/
+    .row {
         flex-direction: column;
-        flex-grow: 2 0 0;
-        width: 100%;
-        height: auto;
+    }
+    .menu {
+        align-items: center;
     }
 }
